@@ -1,0 +1,8 @@
+rootProject.name = 'kafka-on-the-shore'
+
+include 'order-service'
+include 'driver-service'
+include 'passenger-service'
+include 'trip-service'
+include 'order-service'
+

@@ -1,0 +1,10 @@
+# gradle file
+.gradle
+gradle
+
+#intellij files
+.idea
+
+#module related files
+order-service/build
+order-service/out

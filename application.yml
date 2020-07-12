@@ -1,0 +1,8 @@
+kafka:
+  bootstrap:
+    servers: localhost:9092
+
+endpoints:
+  all:
+    enabled: true
+    sensitive: false
