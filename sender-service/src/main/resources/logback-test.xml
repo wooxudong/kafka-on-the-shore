@@ -9,4 +9,13 @@
     <root level="info">
         <appender-ref ref="STDOUT"/>
     </root>
+
+    <logger name="com.xudong" level="debug" additivity="false">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <root level="error">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
 </configuration>

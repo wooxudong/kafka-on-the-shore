@@ -6,5 +6,5 @@ gradle
 .idea
 
 #module related files
-order-service/build
-order-service/out
+**/build
+**/out

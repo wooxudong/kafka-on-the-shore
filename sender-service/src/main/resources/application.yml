@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: sender-service
+
+kafka:
+  bootstrap:
+    servers: docker.for.mac.localhost:9092
+  security:
+    protocal: PLAINTEXT
+  producers:
+    default:
+      retries: 5
