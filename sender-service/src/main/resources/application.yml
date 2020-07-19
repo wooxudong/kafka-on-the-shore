@@ -4,7 +4,7 @@ micronaut:
 
 kafka:
   bootstrap:
-    servers: docker.for.mac.localhost:9092
+    servers: 10.202.52.223:9092
   security:
     protocal: PLAINTEXT
   producers:
